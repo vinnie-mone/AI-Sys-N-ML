@@ -1,0 +1,9 @@
+Model,Best CV F1,Test Accuracy,Test F1,Best Parameters
+GaussianNB,0.9521367521367523,0.9111111111111111,0.9111111111111111,{'model__var_smoothing': 1e-11}
+MultinomialNB,0.7898717948717949,0.7555555555555555,0.7552836484983314,{'model__alpha': 0.01}
+ComplementNB,0.5555555555555555,0.6666666666666666,0.5498533724340176,{'model__alpha': 0.01}
+BernoulliNB,0.8558822876469936,0.7333333333333333,0.7333333333333334,"{'model__alpha': 0.1, 'model__binarize': 0.5}"
+Decision Tree,0.9518376068376069,0.9333333333333333,0.9332591768631814,"{'model__criterion': 'gini', 'model__max_depth': 4, 'model__min_samples_split': 2}"
+LDA,0.9904273504273504,0.9555555555555556,0.9555555555555556,{'model__solver': 'svd'}
+SVM,0.9713797313797314,0.9333333333333333,0.9332591768631814,"{'model__C': 1, 'model__gamma': 'scale', 'model__kernel': 'rbf'}"
+KNN,0.9712820512820514,0.8888888888888888,0.8887652947719689,"{'model__n_neighbors': 9, 'model__p': 2, 'model__weights': 'uniform'}"
